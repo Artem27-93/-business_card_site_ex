@@ -17,6 +17,7 @@ header{
     display: flex;
     justify-content:space-between;
     align-items: center;
+    
 }
 .nav ul{
     display: flex;
@@ -43,4 +44,49 @@ header{
 }
 .nav li a:hover{
     color: #1abb9c;
+}
+
+@media (max-width: 1200px){
+    .container{
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 700px){
+   .logo {
+       margin: 0 auto;
+   }
+   .container{
+       padding-top: 20px;
+       padding-bottom: 20px;
+   }
+}
+@media (max-width: 530px){  
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 0;
+    }
+    .container{
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+    .nav ul li{
+        text-decoration: wavy ;
+        margin: 3px 0;
+        border-radius: 30px;
+        border: 1px solid #000;
+        cursor: pointer;
+
+    }
+    .nav ul li:nth-child(2n+1){
+        background: cadetblue;
+        margin-left: -20px;
+        
+    }
+    
+    .nav ul li a{
+        padding: 10px 0;
+        margin: 30px;
+    }
 }
