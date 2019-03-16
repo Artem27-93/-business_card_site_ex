@@ -7,13 +7,12 @@ body{
 }
 header{
     background:#e5e5e5;
-    min-height: 125px;
     
 }
 .container{
     width: 1170px;
     margin: auto;
-    padding: 50px 0;
+    padding: 30px 0;
     display: flex;
     justify-content:space-between;
     align-items: center;
