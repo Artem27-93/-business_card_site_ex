@@ -5,6 +5,7 @@ body{
     margin: 0;
     
 }
+/* header creating */
 header{
     background:#e5e5e5;
     
@@ -44,6 +45,58 @@ header{
 .nav li a:hover{
     color: #1abb9c;
 }
+/* slider creating */
+.slider-image{
+    background-image: url(images/slider.png);
+    background-color: #fff;
+    height:600px;
+}
+.wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+
+}
+.wrap h1,h2,a{
+    text-align: center;
+}
+.wrap h1{
+    margin-top: 200px;
+    margin-bottom: 0;
+    color:#f3f3f3;
+    font-weight: bold;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.wrap h2{
+    margin-top: 50px;
+    margin-bottom: 0;
+    color: #a8a8a8;
+    font-weight: bold;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.button{
+    
+    margin-top: 50px;
+    margin-bottom: 200px;
+    cursor: pointer;
+    width: 140px;
+    height: 45px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #3f8dbf;
+    background: #3f8dbf;
+    
+}
+.button span{
+    display: block;
+    padding-top: 15px;
+}
+
 
 @media (max-width: 1200px){
     .container{
@@ -88,4 +141,6 @@ header{
         padding: 10px 0;
         margin: 30px;
     }
+   
+     
 }
